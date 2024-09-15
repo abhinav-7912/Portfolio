@@ -54,7 +54,7 @@ function Portfolio() {
                                         rel="noopener noreferrer"
                                     >
                                         <button className="bg-orange-500 hover:bg-orange-700 text-white font-bold px-4 py-2 rounded">
-                                            Source code
+                                            View
                                         </button>
                                     </a>
                                 </div>

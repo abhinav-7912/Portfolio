@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from "react-scroll";
+import Abhinav from "../../public/Abhinav.jpeg";
 
 function Navbar() {
     const [theme, setTheme] = useState(localStorage.getItem("theme") ? localStorage.getItem("theme") : "light");
@@ -74,7 +75,7 @@ function Navbar() {
                             )}
                         </div>
                         <div className="flex space-x-2">
-                            <img className="h-12 w-12 rounded-full" src="/public/Abhinav.jpeg" alt="abhi" />
+                            <img className="h-12 w-12 rounded-full" src={Abhinav} alt="abhi" />
                             <h1 className="font-semibold cursor-pointer">Abhinav
                                 <p className="text-sm text-orange-700">Web Developer</p>
                             </h1>

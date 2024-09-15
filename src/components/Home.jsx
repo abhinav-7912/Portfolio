@@ -2,7 +2,7 @@ import React from 'react';
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa6";
-
+import Abhinav from "../../public/Abhinav.jpeg";
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
@@ -69,7 +69,7 @@ function Home() {
                         </div>
                     </div>
                     <div className='order-1 md:w-1/2 md:ml-48 md:mt-20 mt-8 '>
-                        <img className='rounded-full md:w-[450px] md:h-[450px]' src="public/Abhinav.jpeg" alt="banner"></img>
+                        <img className='rounded-full md:w-[450px] md:h-[450px]' src={Abhinav} alt="banner"></img>
                     </div>
                 </div>
             </div>
